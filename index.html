@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NoteTak: The Best Note Taking App in the 19S</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <div class="header-container">
+        <h1>NoteTak: The Best Note Taking App in the 19S</h1>
+        <nav>
+            <ul>
+                <li><a href="#promo">Promotion</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    <section class="description">
+        <img src="Description.png" alt="NoteTak description" class="description">
+        <h1>Welcome to NoteTak, the first note taking App in the 19S.</h1>
+        <h2>From now on, You don't have to write on the paper and struggle on saving and keeping it!</h2>
+        <h3>Writing your first note on the container below and press "Add Note" button!</h3>
+    </section>
+    <div class="container">
+        <h1>Note Taking App</h1>
+        <div class="note-input">
+            <textarea id="noteText" placeholder="Write a note..."></textarea>
+            <button onclick="addNote()">Add Note</button>
+        </div>
+        <div id="notesContainer" class="notes-container">
+            <!-- Notes will appear here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <div class="feedback-form">
+        <h2>Get the Full Edition</h2>
+        <p>Leave your email to receive the full edition of our Note-Taking App!</p>
+        <form id="feedbackForm">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2023 NoteTak. All rights reserved.</p>
+    </div>
+</footer>
+</html>
